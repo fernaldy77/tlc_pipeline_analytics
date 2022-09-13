@@ -2,7 +2,7 @@
 
 This repository is an example of very simple batch data pipeline using Spark and Airflow. The flow of pipeline can be seen as diagram below:
 
-![image-20220911145527414](C:\Users\ACER\AppData\Roaming\Typora\typora-user-images\image-20220911145527414.png)
+![Pipeline diagram](diagram.png)
 
 We use raw data from NYC TLC to be ingested. You can follow this [link](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) to see more detail. The raw data will then be stored on top of HDFS which can be accessed using Spark via Hive. Spark will then do simple transformation and persist data into Postgres.
 
