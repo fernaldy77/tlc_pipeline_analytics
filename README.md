@@ -23,7 +23,10 @@ These are prerequisites that must be done before start the project:
 5. Install Airflow
 
 
-
 # Usage
 
-TBD
+1. Start Postgres docker, HDFS, Airflow webserver and scheduler
+2. Make directory on Hadoop using <code> hdfs dfs -mkdir -p /data/tlc_analytics/staging/ </code>
+3. Create Postgres database and table using <code> create_db_table.sql </code>
+4. Go to Airflow console at <VM IP>:8080, add variable user according to your user GCP
+5. Start Airflow dag as below: ![img.png](airflow-console.png)
