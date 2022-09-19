@@ -1,4 +1,5 @@
-# About the project
+# tlc_pipeline_analytics
+## About the project
 
 This repository is an example of very simple batch data pipeline using Spark and Airflow. The flow of pipeline can be seen as diagram below:
 
@@ -12,7 +13,7 @@ Since the purpose of this repo is to only show an example of how the usage of th
 
 
 
-# Getting started
+## Getting started
 
 These are prerequisites that must be done before start the project:
 
@@ -23,7 +24,7 @@ These are prerequisites that must be done before start the project:
 5. Install Airflow
 
 
-# Usage
+## Usage
 
 1. Start Postgres docker, HDFS, Airflow webserver and scheduler
 2. Make directory on Hadoop using <code> hdfs dfs -mkdir -p /data/tlc_analytics/staging/ </code>
