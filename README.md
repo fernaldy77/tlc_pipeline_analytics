@@ -17,7 +17,7 @@ Since the purpose of this repo is to only show an example of how the usage of th
 
 These are prerequisites that must be done before start the project:
 
-1. Setup a GCP VM
+1. Setup a GCP Compute Engine instance
 2. Install Spark
 3. Install Postgres docker
 4. Install HDFS
